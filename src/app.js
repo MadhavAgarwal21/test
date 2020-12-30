@@ -5,6 +5,7 @@ const app = express()
 const foreCast = require('./utils/forecast')
 const geoCode = require('./utils/geocode')
 const port = process.env.PORT || 3000
+
 // Define Paths
 const publicDirPath = path.join(__dirname,'../public')
 const viewPath = path.join(__dirname,'../templates/views')

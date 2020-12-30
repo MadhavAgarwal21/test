@@ -13,7 +13,7 @@ const foreCast = (latitude,longitude,callback) => {
                 callback("Invalid Location! Try another one",undefined)
             }
            else {
-               callback(undefined, 'Temperature is ' + body.current.temperature  )
+               callback(undefined, `Temperature is ${body.current.temperature} and humidity is ${body.current.humidity} ` )
            }
     })
     }
