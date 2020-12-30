@@ -64,9 +64,6 @@ app.get('/weather', (req,res) => {
             })
         } )
     } )
-    // res.send({
-    //     address: req.query.address
-    // })
 } )
 
 app.get('/help/*' , (req,res) =>{
